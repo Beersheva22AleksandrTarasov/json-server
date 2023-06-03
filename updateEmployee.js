@@ -4,4 +4,4 @@ fetch(URL, {
     method: 'PUT',
     headers: {"Content-Type": "application/json"},
     body: JSON.stringify(empl)
-}).then(response => response.json()).then(data => console.log(data))
+}).then(response => response.json()).then(data => console.log(data));
